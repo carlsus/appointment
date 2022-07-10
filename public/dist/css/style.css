@@ -1,0 +1,6 @@
+btn-group, .btn-group-vertical {
+    position: absolute; /* this seems to be the issue */
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
