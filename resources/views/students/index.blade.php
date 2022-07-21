@@ -188,12 +188,10 @@ $(function () {
     $('.data-table').on('click', '.view', function () {
 
       var id = $(this).data("id");
-
-      window.open("http://127.0.0.1:8000/appointments/" + id,
+      var url = '{!! url('appointments/') !!}';
+      window.open( url+'/'+ id,
                     "", "width=400, height=400");
-    //   $('#qrimage').attr('src',file_path);
-    //   $('#qrcode').val(id);
-    //   $('#qrmodal').modal('show');
+
     });
   });
 </script>
