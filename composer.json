@@ -16,7 +16,9 @@
         "laravel/tinker": "^2.5",
         "laravel/ui": "^2.5",
         "laravelcollective/html": "^6.3",
-        "spatie/laravel-permission": "^5.5"
+        "simplesoftwareio/simple-qrcode": "^4.2",
+        "spatie/laravel-permission": "^5.5",
+        "twilio/sdk": "^6.39"
     },
     "require-dev": {
         "facade/ignition": "^2.0",
